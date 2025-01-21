@@ -1,13 +1,24 @@
-import { Children } from "react";
+import { Children, useState } from "react";
 import AnimatedBackground from "./motion/motionbackround";
 import CustomPatternSVG from "./motion/motiondraw";
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Container(props: { [x: string]: any; children: any; }) {
   const { children } = props;
+  const [show1, setShow1] = useState(false)
+  const [show2, setShow2] = useState(false)
+
+  setTimeout(function () {
+    setShow1(true)
+  }, 2000);
+
+  setTimeout(function () {
+    setShow2(true)
+  }, 4000);
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden bg-red-950">
+      <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden bg-gradient-to-br from-[#542A08] from-10% via-[#852D14] via-30% to-[#600A1E] to-90%">
         <CustomPatternSVG />
       </div>
       {/* Hintergrundanimation */}
@@ -28,18 +39,33 @@ export default function Container(props: { [x: string]: any; children: any; }) {
         <main id="skip" className="flex-1 w-full p-4">
 
           <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-16 ml-auto z-50">
-              <button className="w-16 h-20 text-white font-extrabold font-mono	text-3xl transform rotate-90">
-                FAQ
-              </button>
-              <button className="w-16 h-30 text-white font-extrabold font-mono	text-3xl transform rotate-90">
-                Tickets
-              </button>
-              <button className="w-16 h-40 text-white font-extrabold font-mono	text-3xl transform rotate-90">
-                Location
-              </button>
-              <button className="w-16 h-40 text-white font-extrabold font-mono	text-3xl transform rotate-90">
-                Contact
-              </button>
+            <button className="w-16 h-20 text-white font-extrabold font-special	text-4xl transform rotate-90">
+              <TypeAnimation
+                sequence={['F', 200, 'Fa', 300, 'Faq', () => { },]}
+                wrapper="span"
+                cursor={false}
+                repeat={0}
+              />
+            </button>
+            <button className="w-16 h-40 text-white font-extrabold font-special	text-4xl transform rotate-90">
+              {show1 && <TypeAnimation
+                sequence={['T', 200, 'Tick', 300, 'Tickets', () => { },]}
+                wrapper="span"
+                cursor={true}
+                repeat={0}
+              />}
+            </button>
+            <button className="w-16 h-64 text-white font-extrabold font-special	text-4xl transform rotate-90">
+              {show2 && <TypeAnimation
+                sequence={['Lo', 200, 'Locat', 300, 'Location', () => { },]}
+                wrapper="span"
+                cursor={true}
+                repeat={0}
+              />}
+            </button>
+            <button className="w-16 h-60 text-white font-extrabold font-special	text-4xl transform rotate-90">
+              Contact
+            </button>
           </div>
           <div className="-mt-[700px]">
             {children}

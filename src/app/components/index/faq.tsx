@@ -1,59 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Accordion,
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
- 
+
 export default function FaqAccordion() {
-  const [open, setOpen] = React.useState(1);
- 
-  const handleOpen = (value:any) => setOpen(open === value ? 0 : value);
- 
+  const [open, setOpen] = useState(1);
+
+  const handleOpen = (value: any) => setOpen(open === value ? 0 : value);
+
   return (
-    <>
-      <Accordion open={open === 1} className="mb-2 rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
-        <AccordionHeader
-          onClick={() => handleOpen(1)}
-          className={`border-b-0 transition-colors ${open === 1 ? "text-blue-500 hover:!text-blue-700" : ""}`} placeholder={""}        >
-          What is Material Tailwind?
-        </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
-        </AccordionBody>
-      </Accordion>
-      <Accordion open={open === 2} className="mb-2 rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
-        <AccordionHeader
-          onClick={() => handleOpen(2)}
-          className={`border-b-0 transition-colors ${
-            open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`} placeholder={""}
-        >
-          How to use Material Tailwind?
-        </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
-        </AccordionBody>
-      </Accordion>
-      <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
-        <AccordionHeader
-          onClick={() => handleOpen(3)}
-          className={`border-b-0 transition-colors ${
-            open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`} placeholder={""}
-        >
-          What can I do with Material Tailwind?
-        </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
-        </AccordionBody>
-      </Accordion>
-    </>
+    <div className={'border p-2'}>
+      <div className={'pb-4'}>
+        <Accordion open={open === 1} placeholder={""}>
+          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special '}>What is Material Tailwind?</AccordionHeader>
+          <AccordionBody className={'text-white'}>
+            We&apos;re not always in the position that we want to be at. We&apos;re constantly
+            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
+            ourselves and actualize our dreams.
+          </AccordionBody>
+        </Accordion>
+      </div>
+      <div className={'pb-4'}>
+        <Accordion open={open === 2} placeholder={""}>
+          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special'}>
+            How to use Material Tailwind?
+          </AccordionHeader>
+          <AccordionBody className={'text-white'}>
+            We&apos;re not always in the position that we want to be at. We&apos;re constantly
+            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
+            ourselves and actualize our dreams.
+          </AccordionBody>
+        </Accordion>
+      </div>
+      <div className={'pb-4'}>
+        <Accordion open={open === 3} placeholder={""}>
+          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special'}>
+            What can I do with Material Tailwind?
+          </AccordionHeader>
+          <AccordionBody className={'text-white'}>
+            We&apos;re not always in the position that we want to be at. We&apos;re constantly
+            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
+            ourselves and actualize our dreams.
+          </AccordionBody>
+        </Accordion>
+      </div>
+    </div>
   );
 }

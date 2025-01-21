@@ -22,7 +22,10 @@ const config: Config = {
       },
       colors: {
         'tooltip-gray': 'rgba(169, 169, 169, 0.937)',
-      }
+      },
+      fontFamily: {
+        'special': ['Galaxia', 'Calibri', 'system-ui']
+      },
     },
   },
   plugins: [],

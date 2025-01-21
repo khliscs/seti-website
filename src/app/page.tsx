@@ -20,7 +20,7 @@ export default function Page() {
       </Head>
 
       <Container>
-        <div className="bg-inherit mt-96 mb-8">
+        <div className="bg-inherit mt-96 mb-8 mr-12 sm:mr-32 ">
           <FaqAccordion />
           <PretixWidget />
           <ContactSection />
