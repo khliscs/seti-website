@@ -1,0 +1,872 @@
+@alloc/quick-lru@5.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/code-frame@7.23.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/helper-module-imports@7.22.15 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/helper-string-parser@7.23.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/helper-validator-identifier@7.22.20 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/highlight@7.23.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/runtime@7.24.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/types@7.24.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/babel-plugin@11.11.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/cache@11.11.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/hash@0.9.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/is-prop-valid@1.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/memoize@0.8.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/react@11.11.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/serialize@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/sheet@1.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/styled@11.11.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/unitless@0.8.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/use-insertion-effect-with-fallbacks@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/utils@1.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@emotion/weak-memoize@0.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@floating-ui/core@1.6.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@floating-ui/dom@1.6.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@floating-ui/react-dom@2.0.8 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@floating-ui/utils@0.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@headlessui/react@1.7.18 [license(s): MIT]
+└── package.json:  MIT
+
+@heroicons/react@2.1.1 [license(s): MIT]
+└── package.json:  MIT
+
+@isaacs/cliui@8.0.2 [license(s): ISC]
+└── package.json:  ISC
+
+@jridgewell/gen-mapping@0.3.4 [license(s): MIT]
+└── package.json:  MIT
+
+@jridgewell/resolve-uri@3.1.2 [license(s): MIT]
+└── package.json:  MIT
+
+@jridgewell/set-array@1.1.2 [license(s): MIT]
+└── package.json:  MIT
+
+@jridgewell/sourcemap-codec@1.4.15 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@jridgewell/trace-mapping@0.3.23 [license(s): MIT]
+└── package.json:  MIT
+
+@mui/base@5.0.0-beta.37 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/core-downloads-tracker@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/material@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/private-theming@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/styled-engine@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/system@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/types@7.2.13 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@mui/utils@5.15.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@next/env@14.1.0 [license(s): MIT]
+└── package.json:  MIT
+
+@next/swc-win32-x64-msvc@14.1.0 [license(s): MIT]
+└── package.json:  MIT
+
+@nodelib/fs.scandir@2.1.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@nodelib/fs.stat@2.0.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@nodelib/fs.walk@1.2.8 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@pkgjs/parseargs@0.11.0 [license(s): Apache, MIT]
+├── package.json:  MIT
+└── license files: Apache
+
+@popperjs/core@2.11.8 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+@swc/helpers@0.5.2 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+@tanstack/react-virtual@3.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@tanstack/virtual-core@3.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/node@20.11.20 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/parse-json@4.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/prop-types@15.7.11 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/react@18.2.58 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/react-dom@18.2.19 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/react-transition-group@4.4.10 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@types/scheduler@0.16.8 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-regex@6.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-styles@3.2.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-styles@6.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+any-promise@1.3.0 [license(s): MIT]
+└── package.json:  MIT
+
+anymatch@3.1.3 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+arg@5.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+attr-accept@2.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+autoprefixer@10.4.17 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+babel-plugin-macros@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+balanced-match@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+binary-extensions@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+brace-expansion@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+braces@3.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+browserslist@4.23.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+busboy@1.6.0 [license(s): MIT]
+└── package.json:  MIT
+
+callsites@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+camelcase-css@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+caniuse-lite@1.0.30001589 [license(s): CC-BY-4.0, Public Domain]
+├── package.json:  CC-BY-4.0
+└── license files: Public Domain
+
+chalk@2.4.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+chokidar@3.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+client-only@0.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+clsx@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+color-convert@1.9.3 [license(s): MIT]
+└── package.json:  MIT
+
+color-convert@2.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+color-name@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+color-name@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+commander@4.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+convert-source-map@1.9.0 [license(s): MIT]
+└── package.json:  MIT
+
+cosmiconfig@7.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cross-spawn@7.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cssesc@3.0.0 [license(s): MIT]
+└── package.json:  MIT
+
+csstype@3.1.3 [license(s): MIT]
+└── package.json:  MIT
+
+didyoumean@1.2.2 [license(s): Apache-2.0]
+└── package.json:  Apache-2.0
+
+dlv@1.1.3 [license(s): MIT]
+└── package.json:  MIT
+
+dom-helpers@5.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+eastasianwidth@0.2.0 [license(s): MIT]
+└── package.json:  MIT
+
+electron-to-chromium@1.4.681 [license(s): ISC]
+└── package.json:  ISC
+
+emoji-regex@9.2.2 [license(s): MIT]
+└── package.json:  MIT
+
+error-ex@1.3.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+escalade@3.1.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+escape-string-regexp@1.0.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+escape-string-regexp@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+fast-glob@3.3.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+fastq@1.17.1 [license(s): ISC]
+├── package.json:  ISC
+└── readme files: ISC
+
+file-selector@0.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+fill-range@7.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+find-root@1.1.0 [license(s): MIT]
+└── package.json:  MIT
+
+flowchart-react@3.16.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+foreground-child@3.1.1 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+fraction.js@4.3.7 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+function-bind@1.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+glob@10.3.10 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+glob-parent@5.1.2 [license(s): ISC]
+├── package.json:  ISC
+├── license files: ISC
+└── readme files: ISC
+
+glob-parent@6.0.2 [license(s): ISC]
+├── package.json:  ISC
+├── license files: ISC
+└── readme files: ISC
+
+graceful-fs@4.2.11 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+has-flag@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+hasown@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+hoist-non-react-statics@3.3.2 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+├── license files: BSD
+└── readme files: BSD
+
+immutability-helper@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+import-fresh@3.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-arrayish@0.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-binary-path@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-core-module@2.13.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-extglob@2.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-fullwidth-code-point@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-glob@4.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-number@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+isexe@2.0.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+jackspeak@2.3.6 [license(s): BlueOak-1.0.0]
+└── package.json:  BlueOak-1.0.0
+
+jiti@1.21.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+js-tokens@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+json-parse-even-better-errors@2.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lilconfig@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lilconfig@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lines-and-columns@1.2.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+loose-envify@1.4.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lru-cache@10.2.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+merge2@1.4.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+micromatch@4.0.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+minimatch@9.0.3 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+minipass@7.0.4 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+mz@2.7.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+nanoid@3.3.7 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+next@14.1.0 [license(s): Apache, BSD, ISC, MIT, MPL]
+├── package.json:  MIT
+└── license files: Apache, BSD, ISC, MIT, MPL
+
+next-themes@0.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+node-releases@2.0.14 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+normalize-path@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+normalize-range@0.1.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+object-assign@4.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+object-hash@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parent-module@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parse-json@5.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+path-key@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+path-parse@1.0.7 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-scurry@1.10.1 [license(s): BlueOak-1.0.0]
+└── package.json:  BlueOak-1.0.0
+
+path-type@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+picocolors@1.0.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+picomatch@2.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+pify@2.3.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pirates@4.0.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss@8.4.31 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss@8.4.35 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss-import@15.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss-js@4.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss-load-config@4.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss-nested@6.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+postcss-selector-parser@6.0.15 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+postcss-value-parser@4.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+prop-types@15.8.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+queue-microtask@1.2.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react@18.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react-dom@18.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react-dropzone@14.2.3 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+react-hook-form@7.50.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react-is@16.13.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react-is@18.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+react-toastify@10.0.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+react-transition-group@4.4.5 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+└── license files: BSD
+
+read-cache@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+readdirp@3.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+regenerator-runtime@0.14.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+resolve@1.22.8 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+resolve-from@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+reusify@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+rule-translator-app@0.1.0 [license(s): Unknown]
+
+run-parallel@1.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+scheduler@0.23.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+shebang-command@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+shebang-regex@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+signal-exit@4.1.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+simple-xml-to-json@1.2.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+source-map@0.5.7 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+source-map-js@1.0.2 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+streamsearch@1.1.0 [license(s): MIT]
+└── package.json:  MIT
+
+string-width@4.2.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+strip-ansi@6.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+styled-jsx@5.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+stylis@4.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+sucrase@3.35.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+supports-color@5.5.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+supports-preserve-symlinks-flag@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+tailwindcss@3.4.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+thenify@3.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+thenify-all@1.6.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+to-fast-properties@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+to-regex-range@5.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ts-interface-checker@0.1.13 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+tslib@2.6.2 [license(s): 0BSD]
+└── package.json:  0BSD
+
+typescript@5.3.3 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+undici-types@5.26.5 [license(s): MIT]
+└── package.json:  MIT
+
+update-browserslist-db@1.0.13 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+util-deprecate@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+which@2.0.2 [license(s): BSD, ISC]
+├── package.json:  ISC
+├── license files: ISC
+└── readme files: BSD
+
+wrap-ansi@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+yaml@1.10.2 [license(s): ISC]
+├── package.json:  ISC
+└── readme files: ISC
+
+yaml@2.4.0 [license(s): ISC]
+├── package.json:  ISC
+└── readme files: ISC
+
+LICENSES: 0BSD, Apache, Apache-2.0, BSD, BSD-3-Clause, BlueOak-1.0.0, CC-BY-4.0, ISC, MIT, MPL, Public Domain, Unknown
