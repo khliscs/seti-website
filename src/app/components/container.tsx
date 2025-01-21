@@ -51,7 +51,7 @@ export default function Container(props: { [x: string]: any; children: any; }) {
               {show1 && <TypeAnimation
                 sequence={['T', 200, 'Tick', 300, 'Tickets', () => { },]}
                 wrapper="span"
-                cursor={true}
+                cursor={false}
                 repeat={0}
               />}
             </button>

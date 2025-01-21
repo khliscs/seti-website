@@ -1,2 +1,86 @@
+@font-face {
+    font-family: Galaxia;
+    src: url(fonts/TerrabloX.ttf);
+}
 
-  
+.pretix-widget {
+    border: none !important;
+    color: white;
+    padding: 0 !important;
+}
+
+.pretix-widget h3 {
+    padding: 0 !important;
+}
+
+.pretix-widget-category-name .pretix-widget-item-info-col {
+    padding: 0 !important;
+}
+
+.pretix-widget-pricebox {
+    color: white;
+    text-align: left !important;
+}
+
+.pretix-widget .pretix-widget-item-row {
+    padding: 0 !important;
+}
+
+.pretix-widget .pretix-widget-item-info-col {
+    padding: 0 !important;
+}
+
+.pretix-widget .pretix-widget-item-price-col {
+    padding: 0 !important;
+}
+
+.pretix-widget .pretix-widget-action {
+    padding: 0 !important;
+}
+
+.pretix-widget-attribution {
+    display: none !important;
+}
+
+.pretix-widget-category-name {
+    font-family: 'Galaxia' !important;
+    font-size: 1.875rem !important;
+    /* 30px */
+    line-height: 2.25rem !important;
+    /* 36px */
+}
+
+.pretix-widget-item-title {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 1rem !important;
+    /* 30px */
+}
+
+.pretix-widget-pricebox {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 1.4rem !important;
+    /* 30px */
+}
+
+.pretix-widget-item-count-group {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 1rem !important;
+    /* 30px */
+}
+
+.pretix-widget-action {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 1rem !important;
+    /* 30px */
+}
+
+.pretix-widget-action>button:nth-child(1) {
+    background: rebeccapurple !important;
+    border-width: 2px;
+    border-color: white;
+    width: 250px;
+}
+
+.pretix-widget-pricebox-tax {
+    display: none !important;
+}

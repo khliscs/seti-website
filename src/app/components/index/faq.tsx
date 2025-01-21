@@ -11,38 +11,32 @@ export default function FaqAccordion() {
   const handleOpen = (value: any) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className={''}>
+    <div className={'mb-24'}>
       <div className={'pb-4'}>
         <Accordion open={open === 1} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-3xl'}>What is Material Tailwind?</AccordionHeader>
-          <AccordionBody className={'text-white'}>
-            We&apos;re not always in the position that we want to be at. We&apos;re constantly
-            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-            ourselves and actualize our dreams.
+          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-3xl text-left'}>Camping </AccordionHeader>
+          <AccordionBody className={'text-white text-left font-mono text-base'}>
+          there will be a camp-site for caravans, aswell as normal tennt&apos;s.
           </AccordionBody>
         </Accordion>
       </div>
       <div className={'pb-4'}>
         <Accordion open={open === 2} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-3xl'}>
-            How to use Material Tailwind?
+          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-3xl text-left'}>
+            Parking
           </AccordionHeader>
-          <AccordionBody className={'text-white'}>
-            We&apos;re not always in the position that we want to be at. We&apos;re constantly
-            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-            ourselves and actualize our dreams.
+          <AccordionBody className={'text-white text-left font-mono text-base'}>
+            There will be space for parking 700m away from the Location &apos;
           </AccordionBody>
         </Accordion>
       </div>
       <div className={'pb-4'}>
         <Accordion open={open === 3} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-3xl'}>
-            What can I do with Material Tailwind?
+          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-3xl text-left'}>
+            Awareness
           </AccordionHeader>
-          <AccordionBody className={'text-white'}>
-            We&apos;re not always in the position that we want to be at. We&apos;re constantly
-            growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-            ourselves and actualize our dreams.
+          <AccordionBody className={'text-white text-left font-mono text-base'}>
+            We will have awareness at the whole Event. They will be visuable with vests and lights. (read more here)
           </AccordionBody>
         </Accordion>
       </div>

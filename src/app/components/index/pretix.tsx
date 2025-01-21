@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import parse from 'html-react-parser'
+import '../../style/custom.css'
 function PretixWidget() {
     const [html, setHtml] = useState<string | React.JSX.Element | React.JSX.Element[]>(<></>)
 
