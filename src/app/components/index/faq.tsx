@@ -6,7 +6,7 @@ import {
 } from "@material-tailwind/react";
 
 export default function FaqAccordion() {
-  const [open, setOpen] = useState(1);
+  const [open, setOpen] = useState(0);
 
   const handleOpen = (value: any) => setOpen(open === value ? 0 : value);
 
