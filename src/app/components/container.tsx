@@ -27,7 +27,7 @@ export default function Container(props: { [x: string]: any; children: any; }) {
         {/* Main Content */}
         <main id="skip" className="flex-1 w-full p-4">
 
-          <div className="sticky right-0 top-0 w-full w-12 sm:w-20 flex flex-col items-start space-y-16 ml-auto z-50">
+          <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-16 ml-auto z-50">
               <button className="w-16 h-20 text-white font-extrabold font-mono	text-3xl transform rotate-90">
                 FAQ
               </button>
