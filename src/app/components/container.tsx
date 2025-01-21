@@ -41,7 +41,7 @@ export default function Container(props: { [x: string]: any; children: any; }) {
           <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-16 ml-auto z-50">
             <button className="w-16 h-20 text-white font-extrabold font-special	text-4xl transform rotate-90">
               <TypeAnimation
-                sequence={['F', 200, 'Fa', 300, 'Faq',300, 'F',  () => { },]}
+                sequence={['F', 200, 'Fa', 300, 'Faq',  () => { },]}
                 wrapper="span"
                 cursor={false}
                 repeat={0}
