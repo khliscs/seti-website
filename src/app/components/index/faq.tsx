@@ -11,7 +11,7 @@ export default function FaqAccordion() {
   const handleOpen = (value: any) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className={'border p-2'}>
+    <div className={''}>
       <div className={'pb-4'}>
         <Accordion open={open === 1} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special '}>What is Material Tailwind?</AccordionHeader>
