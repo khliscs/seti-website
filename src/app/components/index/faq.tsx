@@ -12,13 +12,10 @@ export default function FaqAccordion() {
  
   return (
     <>
-      <Accordion open={open === 1} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
+      <Accordion open={open === 1} className="mb-2 rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
         <AccordionHeader
           onClick={() => handleOpen(1)}
-          className={`border-b-0 transition-colors ${
-            open === 1 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
-        >
+          className={`border-b-0 transition-colors ${open === 1 ? "text-blue-500 hover:!text-blue-700" : ""}`} placeholder={""}        >
           What is Material Tailwind?
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
@@ -27,12 +24,12 @@ export default function FaqAccordion() {
           ourselves and actualize our dreams.
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
+      <Accordion open={open === 2} className="mb-2 rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
         <AccordionHeader
           onClick={() => handleOpen(2)}
           className={`border-b-0 transition-colors ${
             open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
+          }`} placeholder={""}
         >
           How to use Material Tailwind?
         </AccordionHeader>
@@ -42,12 +39,12 @@ export default function FaqAccordion() {
           ourselves and actualize our dreams.
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4">
+      <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4" placeholder={""}>
         <AccordionHeader
           onClick={() => handleOpen(3)}
           className={`border-b-0 transition-colors ${
             open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
+          }`} placeholder={""}
         >
           What can I do with Material Tailwind?
         </AccordionHeader>
