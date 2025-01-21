@@ -3,8 +3,8 @@ export default function ContactSection() {
     return (
         <section className="bg-inerit">
             <div className="py-8 lg:py-16 mx-auto max-w-screen-md">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-left text-gray-100 dark:text-white font-special">Kontaktiere uns</h2>
-                <p className="mb-8 lg:mb-16 font-light text-center text-gray-300 dark:text-gray-400 sm:text-xl">Du brauchst hilfe? Schreibe uns auf Instagram @seti-gathering oder nutze das Kontakt Formular.</p>
+                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-left text-gray-100 dark:text-white font-special">Contact</h2>
+                <p className="mb-8 lg:mb-16 font-light text-left font-mono text-white sm:text-xl">Du brauchst hilfe? Schreibe uns auf Instagram @seti-gathering oder nutze das Kontakt Formular.</p>
                 <form action="#" className="space-y-8">
                     <div>
                         <label className="block mb-2 font-medium text-gray-100 dark:text-gray-300 font-special">Deine E-Mail</label>
