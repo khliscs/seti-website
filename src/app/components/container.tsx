@@ -38,8 +38,8 @@ export default function Container(props: { [x: string]: any; children: any; }) {
         {/* Main Content */}
         <main id="skip" className="flex-1 w-full p-4">
 
-          <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-16 ml-auto z-50">
-            <button className="w-16 h-15 text-white font-extrabold font-special	text-4xl transform rotate-90">
+          <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-14 ml-auto z-50">
+            <button className="w-16 h-12 text-white font-extrabold font-special	text-5xl transform rotate-90">
               <TypeAnimation
                 sequence={['F', 200, 'Fa', 300, 'Faq',  () => { },]}
                 wrapper="span"
@@ -47,7 +47,7 @@ export default function Container(props: { [x: string]: any; children: any; }) {
                 repeat={0}
               />
             </button>
-            <button className="w-16 h-40 text-white font-extrabold font-special	text-4xl transform rotate-90">
+            <button className="w-16 h-44 text-white font-extrabold font-special	text-5xl transform rotate-90">
               {show1 && <TypeAnimation
                 sequence={['T', 200, 'Tick', 300, 'Tickets', () => { },]}
                 wrapper="span"
@@ -55,16 +55,13 @@ export default function Container(props: { [x: string]: any; children: any; }) {
                 repeat={0}
               />}
             </button>
-            <button className="w-16 h-64 text-white font-extrabold font-special	text-4xl transform rotate-90">
+            <button className="w-16 h-72 text-white font-extrabold font-special	text-5xl transform rotate-90">
               {show2 && <TypeAnimation
                 sequence={['Lo', 200, 'Locat', 300, 'Location', () => { },]}
                 wrapper="span"
                 cursor={true}
                 repeat={0}
               />}
-            </button>
-            <button className="w-16 h-60 text-white font-extrabold font-special	text-4xl transform rotate-90">
-              Contact
             </button>
           </div>
           <div className="-mt-[700px]">

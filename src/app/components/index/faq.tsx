@@ -14,7 +14,7 @@ export default function FaqAccordion() {
     <div className={'mb-24'}>
       <div className={'pb-4'}>
         <Accordion open={open === 1} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-3xl text-left'}>Camping </AccordionHeader>
+          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-4xl text-left'}>Camping </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
           there will be a camp-site for caravans, aswell as normal tennt&apos;s.
           </AccordionBody>
@@ -22,7 +22,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4'}>
         <Accordion open={open === 2} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-3xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Parking
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -32,7 +32,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4'}>
         <Accordion open={open === 3} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-3xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Awareness
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
