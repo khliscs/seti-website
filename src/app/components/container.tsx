@@ -23,14 +23,14 @@ export default function Container(props: { [x: string]: any; children: any; }) {
       </div>
       {/* Hintergrundanimation */}
 
-      {/* Fixierter Header 
+      {/* Fixierter Header */}
       <div className="fixed top-0 w-full h-[80px] flex items-center justify-center w-full z-50">
         <img
           src="/Logo.svg" // Pfad zu SVG, ohne './public'
           alt="Logo"
           className="h-[50px] w-auto"
         />
-      </div>*/}
+      </div>
 
       {/* Hauptinhalt */}
       <div className="relative z-10 flex flex-col pt-[40px] h-full w-full overflow-x-hidden overflow-y-auto">
@@ -41,7 +41,7 @@ export default function Container(props: { [x: string]: any; children: any; }) {
           <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-12 ml-auto z-50">
             <button className="w-16 h-12 text-white font-extrabold font-special	text-5xl transform rotate-90">
               <TypeAnimation
-                sequence={['F', 200, 'Fa', 300, 'Faq',  () => { },]}
+                sequence={['F', 200, 'Fa', 300, 'Faq', () => { },]}
                 wrapper="span"
                 cursor={false}
                 repeat={0}
