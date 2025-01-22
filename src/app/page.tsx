@@ -21,7 +21,7 @@ export default function Page() {
       </Head>
 
       <Container>
-        <div className="bg-inherit mt-[40rem] mb-8 mr-12 sm:mr-32 ">
+        <div className="bg-inherit mt-[35rem] mb-8 mr-12 sm:mr-32 ">
           <Announcement />
           <FaqAccordion />
           <PretixWidget />
