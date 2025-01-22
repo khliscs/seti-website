@@ -47,6 +47,7 @@
     font-size: 1.875rem !important;
     /* 30px */
     line-height: 2.25rem !important;
+    margin-bottom: 18px !important;
     /* 36px */
 }
 
@@ -79,6 +80,7 @@
     border-width: 2px;
     border-color: white;
     width: 250px;
+    margin-top: 20px;
 }
 
 .pretix-widget-pricebox-tax {

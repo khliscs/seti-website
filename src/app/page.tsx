@@ -5,6 +5,7 @@ import PretixWidget from "./components/index/pretix";
 import ContactSection from "./components/index/contact";
 import MapsSection from "./components/index/maps";
 import FaqAccordion from "./components/index/faq";
+import Announcement from "./components/index/announcement";
 
 export default function Page() {
   const meta = {
@@ -20,10 +21,10 @@ export default function Page() {
       </Head>
 
       <Container>
-        <div className="bg-inherit mt-96 mb-8 mr-12 sm:mr-32 ">
+        <div className="bg-inherit mt-[40rem] mb-8 mr-12 sm:mr-32 ">
+          <Announcement />
           <FaqAccordion />
           <PretixWidget />
-          <ContactSection />
           <MapsSection />
         </div >
       </Container>
