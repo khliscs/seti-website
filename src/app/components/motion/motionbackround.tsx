@@ -16,7 +16,7 @@ const AnimatedBackground = () => {
         left: 0,
         width: "100vw",
         height: "100vh",
-        background: "linear-gradient(rgb(84, 42, 8),rgb(133, 45, 20),rgb(96, 10, 30)",
+        background: "linear-gradient(rgb(115, 59, 35 ),rgb(94,35,19),rgb(85,20,8)",
         zIndex: -1,
       }}
       initial="initial"

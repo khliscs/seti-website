@@ -76,7 +76,7 @@ export default function Container(props: { [x: string]: any; children: any; ref1
         </main>
 
         {/* Footer */}
-        <footer className="bg-gray-800 text-white p-4">
+        <footer className="bg-gray-800 text-[#ddd8b9]e p-4">
           Ticketsystem mit Hilfe von Pretix
         </footer>
       </div>

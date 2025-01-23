@@ -3,8 +3,8 @@ export default function ContactSection() {
     return (
         <section className="bg-inerit">
             <div className="py-8 lg:py-16 mx-auto max-w-screen-md">
-                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-left text-gray-100 dark:text-white font-special">Contact</h2>
-                <p className="mb-8 lg:mb-16 font-light text-left font-mono text-white sm:text-xl">Du brauchst hilfe? Schreibe uns auf Instagram @seti-gathering oder nutze das Kontakt Formular.</p>
+                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-left text-gray-100 dark:text-[#ddd8b9]e font-special">Contact</h2>
+                <p className="mb-8 lg:mb-16 font-light text-left font-mono text-[#ddd8b9]e sm:text-xl">Du brauchst hilfe? Schreibe uns auf Instagram @seti-gathering oder nutze das Kontakt Formular.</p>
                 <form action="#" className="space-y-8">
                     <div>
                         <label className="block mb-2 font-medium text-gray-100 dark:text-gray-300 font-special">Deine E-Mail</label>
@@ -19,7 +19,7 @@ export default function ContactSection() {
                         <textarea id="message" rows={6} className="block p-2.5 w-full text-sm font-mono text-gray-900 bg-gray-50 shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 font-mono" placeholder="Beschreie uns dein Anliegen"></textarea>
                     </div>
                     <div className="mt-8 flex gap-x-4 sm:justify-center">
-                        <button className='ml-2 text-white px-4 py-2 text-base font-medium bg-red-900 hover:bg-red-700 transition'>
+                        <button className='ml-2 text-[#ddd8b9]e px-4 py-2 text-base font-medium bg-red-900 hover:bg-red-700 transition'>
                             Absenden
                         </button>
                     </div>
