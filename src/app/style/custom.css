@@ -54,6 +54,7 @@
 .pretix-widget-item-title {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     font-size: 1rem !important;
+    
     /* 30px */
 }
 

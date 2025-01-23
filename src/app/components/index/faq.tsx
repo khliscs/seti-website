@@ -11,10 +11,10 @@ export default function FaqAccordion() {
   const handleOpen = (value: any) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className={'mb-24'}>
-      <div className={'pb-4 bg-black/50 '}>
+    <div className={'mb-24 '}>
+      <div className={'pb-4 pt-4 bg-black/50  '}>
         <Accordion open={open === 1} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4 '}>
             Journey
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -28,7 +28,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 2} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Camping
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -40,7 +40,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 3} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Food and drinks
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -51,7 +51,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 5} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(5)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(5)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Showers
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -61,7 +61,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 6} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(6)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(6)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Parking
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -71,7 +71,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 7} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(7)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(7)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Awareness & Security
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
@@ -81,7 +81,7 @@ export default function FaqAccordion() {
       </div>
       <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 8} placeholder={""}>
-          <AccordionHeader onClick={() => handleOpen(8)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
+          <AccordionHeader onClick={() => handleOpen(8)} placeholder={""} className={'text-white font-special text-4xl text-left ml-4'}>
             Nazis and other scum
           </AccordionHeader>
           <AccordionBody className={'text-white text-left font-mono text-base'}>
