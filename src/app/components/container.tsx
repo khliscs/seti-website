@@ -8,12 +8,8 @@ export default function Container(props: { [x: string]: any; children: any; ref1
   const [show1, setShow1] = useState(false)
   const [show2, setShow2] = useState(false)
 
-  const handleClickFaq = () => {
-    props.ref1.current?.scrollIntoView({behavior: 'smooth'});
-  };
-  const handleClickTickets = () => {
-    props.ref2.current?.scrollIntoView({behavior: 'smooth'});
-  };
+  //const handleClickFaq = () => {props.ref1.current?.scrollIntoView({behavior: 'smooth'});};
+  //const handleClickTickets = () => {props.ref2.current?.scrollIntoView({behavior: 'smooth'});};
   setTimeout(function () {
     setShow1(true)
   }, 2000);
@@ -45,7 +41,7 @@ export default function Container(props: { [x: string]: any; children: any; ref1
         <main id="skip" className="flex-1 w-full p-4">
 
           <div className="sticky right-0 top-0 w-12 sm:w-20 flex flex-col items-start space-y-12 ml-auto z-50">
-            <button className="w-16 h-12 text-white font-extrabold font-special	text-5xl transform rotate-90" onClick={handleClickFaq}>
+            <button className="w-16 h-12 text-white font-extrabold font-special	text-5xl transform rotate-90">
               <TypeAnimation
                 sequence={['F', 200, 'Fa', 300, 'Faq', () => { },]}
                 wrapper="span"
@@ -53,7 +49,7 @@ export default function Container(props: { [x: string]: any; children: any; ref1
                 repeat={0}
               />
             </button>
-            <button className="w-16 h-44 text-white font-extrabold font-special	text-5xl transform rotate-90" onClick={handleClickTickets}>
+            <button className="w-16 h-44 text-white font-extrabold font-special	text-5xl transform rotate-90">
               {show1 && <TypeAnimation
                 sequence={['T', 200, 'Ti', 300, 'Tickets', () => { },]}
                 wrapper="span"

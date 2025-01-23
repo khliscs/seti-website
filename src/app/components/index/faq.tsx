@@ -12,7 +12,7 @@ export default function FaqAccordion() {
 
   return (
     <div className={'mb-24'}>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50 '}>
         <Accordion open={open === 1} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(1)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Journey
@@ -24,8 +24,9 @@ export default function FaqAccordion() {
 
           </AccordionBody>
         </Accordion>
+        
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 2} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(2)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Camping
@@ -37,7 +38,7 @@ export default function FaqAccordion() {
           </AccordionBody>
         </Accordion>
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 3} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(3)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Food and drinks
@@ -48,7 +49,7 @@ export default function FaqAccordion() {
           </AccordionBody>
         </Accordion>
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 5} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(5)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Showers
@@ -58,7 +59,7 @@ export default function FaqAccordion() {
           </AccordionBody>
         </Accordion>
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 6} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(6)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Parking
@@ -68,7 +69,7 @@ export default function FaqAccordion() {
           </AccordionBody>
         </Accordion>
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 7} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(7)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Awareness & Security
@@ -78,7 +79,7 @@ export default function FaqAccordion() {
           </AccordionBody>
         </Accordion>
       </div>
-      <div className={'pb-4'}>
+      <div className={'pb-4 bg-black/50'}>
         <Accordion open={open === 8} placeholder={""}>
           <AccordionHeader onClick={() => handleOpen(8)} placeholder={""} className={'text-white font-special text-4xl text-left'}>
             Nazis and other scum
