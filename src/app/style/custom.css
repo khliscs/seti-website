@@ -48,12 +48,15 @@
     /* 30px */
     line-height: 2.25rem !important;
     margin-bottom: 18px !important;
+    color:#ddd8b9;
     /* 36px */
 }
 
 .pretix-widget-item-title {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     font-size: 1rem !important;
+    color:#ddd8b9;
+    
     
     /* 30px */
 }
@@ -61,25 +64,27 @@
 .pretix-widget-pricebox {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     font-size: 1.4rem !important;
+    color:#ddd8b9;
     /* 30px */
 }
 
 .pretix-widget-item-count-group {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     font-size: 1rem !important;
+    color:#ddd8b9;
     /* 30px */
 }
 
 .pretix-widget-action {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     font-size: 1rem !important;
+    color:blanchedalmond;
     /* 30px */
 }
 
 .pretix-widget-action>button:nth-child(1) {
-    background: rebeccapurple !important;
-    border-width: 2px;
-    border-color: white;
+    background: rgb(95, 56, 134) !important;
+
     width: 250px;
     margin-top: 20px;
 }

@@ -1,10 +1,28 @@
+import { Clipboard } from "flowbite-react"
+
+
+
 export default function MapsSection() {
 
-return (
-    <div className="relative w-full h-96 bg-white px-5">
-    <iframe className="absolute top-0 left-0 w-full h-full"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
-        style={{border:0}} allowFullScreen={true} aria-hidden="false" tabIndex={0}>
-    </iframe>
-</div>
-)}
+    return (
+        <div className="pb-4 pt-4 bg-black/50">
+            <div className={'text-[#ddd8b9] font-special text-4xl text-left ml-4 pb-16 pt-4'}>
+                <p>
+                    Location
+                </p>
+            </div>
+            <div className="grid w-full max-w-[23rem] grid-cols-8 gap-2 ml-2">
+                <input type="text"
+                    className="col-span-6 block w-full bg-black/50 text-[#ddd8b9] pr-2 pl-2"
+                    value="51.0132329, 11.070978892"
+                    disabled
+                    readOnly
+                />
+                <Clipboard valueToCopy="51.013232904247175, 11.070978892006194" label="Copy" className="text-[#ddd8b9]" />
+            </div>
+            <div className="pl-2 pt-4 pr-2 pb-4">
+            <img className="object-contain md:object-cover" src="./cover41.png" alt="Logo"></img>
+            </div>
+        </div>
+    )
+}
