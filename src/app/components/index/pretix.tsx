@@ -15,7 +15,7 @@ function PretixWidget() {
     }, [html])
 
     return (
-        <div className='mt-36 mb-36 bg-black/50 px-2 pt-2 ' >
+        <div className=' mb-12 bg-black/50 px-2 pt-2 ' >
             <div>{html}</div>
         </div>
     );

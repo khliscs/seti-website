@@ -3,10 +3,17 @@ import Head from "next/head"
 import Container from "./components/container";
 import PretixWidget from "./components/index/pretix";
 import ContactSection from "./components/index/contact";
-import MapsSection from "./components/index/maps";
+import MapsSection from "./components/index/OSMaps";
 import FaqAccordion from "./components/index/faq2";
 import Announcement from "./components/index/announcement";
 import { useRef } from "react";
+import dynamic from 'next/dynamic';
+import LineupAccordion from "./components/index/Lineup";
+
+const Map = dynamic(() => import("./components/index/OSMaps"), { ssr: false });
+
+
+
 
 export default function Page() {
   const meta = {
@@ -32,11 +39,14 @@ export default function Page() {
           <div ref={ref2} className="mt-36">
             <PretixWidget />
           </div>
+          <div>
+            <LineupAccordion />
+          </div>
           <div ref={ref1}>
             <FaqAccordion />
           </div>
           <div ref={ref3}>
-          <MapsSection />
+          <Map/>
           </div>
         </div >
       </Container>
@@ -44,3 +54,5 @@ export default function Page() {
     </div >
   )
 }
+
+  

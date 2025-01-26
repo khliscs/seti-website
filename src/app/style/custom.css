@@ -2,6 +2,12 @@
     font-family: Galaxia;
     src: url(fonts/ryder_dirty.ttf);
 }
+@import '~leaflet/dist/leaflet.css';
+
+.leaflet-container {
+    height: 100vh;
+    width: 100wh;
+  }
 
 .pretix-widget {
     border: none !important;
